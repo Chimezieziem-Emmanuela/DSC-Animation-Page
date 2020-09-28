@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(images/bg-image.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.container {
+	min-height: 450px;
+	width: 400px;
+	background-color: white;
+	border-radius: 5px;
+	align-items: center;
+	/* justify-content: center; */
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	margin: 20px 0px;
+}
+
+.anim {
+	height: 1rem;
+	width: 4rem;
+	background-color: turquoise;
+	border-radius: 4rem;
+	position: relative;
+}
+
+.right,
+.left {
+	display: flex;
+}
+
+.box1 {
+	transform: rotate(-20deg);
+	background-color: red;
+}
+
+.box3 {
+	transform: rotate(20deg);
+	background-color: blue;
+}
+
+.box2 {
+	transform: rotate(20deg);
+	background-color: green;
+}
+
+.box4 {
+	transform: rotate(-20deg);
+	background-color: yellow;
+}
+
+.title {
+	font-size: small;
+	color: rgb(73, 67, 112);
+}
+
+.title2 {
+	font-family: sans-serif;
+	font-size: x-small;
+}
+
+.team-name,
+.name {
+	text-transform: capitalize;
+	color: rgb(73, 67, 112);
+	font-size: 25px;
+}
+
+.team-name,
+.name,
+.img {
+	margin-bottom: 20px;
+}
+
+.img {
+	height: 150px;
+	width: 150px;
+	background-image: url(images/Charles.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	align-items: ;
+	border-radius: 50%;
+	background-color: darkolivegreen;
+	border-top-color: red;
+	border-left-color: green;
+	border-bottom-color: blue;
+	border-right-color: yellow;
+	border-width: 4px;
+	border-style: solid;
+}
+
+.Ptext {
+	text-transform: capitalize;
+	font-size: smaller;
+}
+
+/* animation time------------------------------------------------------ */
